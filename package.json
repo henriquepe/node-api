@@ -1,0 +1,17 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "simpleStart": "node ./src/server.js",
+    "devStart": "nodemon ./src/server.js -w"
+  },
+  "devDependencies": {
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4"
+  }
+}
